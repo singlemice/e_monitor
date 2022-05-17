@@ -21,7 +21,7 @@ def writeToLog(logmsg):
 i_200=0
 i_500=0
 while 1:
-    res=urllib.urlopen('http://www.niwodai.com')
+    res=urllib.urlopen('http://www.baidu.com')
     code=str(res.getcode())
     writeToLog(str(res.getcode()))
 
